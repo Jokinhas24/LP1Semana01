@@ -27,6 +27,16 @@ namespace VariousTypes
             Console.WriteLine(heart);
             Console.WriteLine(cloud);
             Console.WriteLine(arrow);
+
+            //Real Variables
+            float f = 2.35f;
+            double dd = 6.88;
+            decimal d = 1.79m;
+
+            //Prints Real Variables on the Console
+            Console.WriteLine(f);
+            Console.WriteLine(dd);
+            Console.WriteLine(d);
         }
     }
 }
