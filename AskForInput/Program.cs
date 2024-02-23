@@ -20,6 +20,10 @@ namespace AskForInput
             //Converge
             float numb2 = float.Parse(n2);
 
+            //sum the 2 number
+            float result = numb1 + numb2;
+            Console.WriteLine($"The sum of {numb1} and {numb2} is {result}");
+
         }
     }
 }
