@@ -16,6 +16,25 @@ namespace ManyStrings
             Console.WriteLine(train);
             Console.WriteLine(dragon);
 
+            //Variable Declaration
+            string a = "aaaaaaaaaaaah";
+            char heart = '\u2665';
+            int four = 4;
+            int five = 5;
+
+            //String Concatenation
+            string scream = "My head hurts " + a;
+
+            //String Interpolation
+            string heartbro = $"I'm {heart}broken";
+            string notfour = $"This number is not four: {four + five}";
+
+            //Prints all strings
+            Console.WriteLine(scream);
+            Console.WriteLine(heartbro);
+            Console.WriteLine(notfour);
+
+
         }
     }
 }
