@@ -8,11 +8,18 @@ namespace AskForInput
         {
             //Ask for Number
             Console.WriteLine("Please insert a Integer Number:");
-            string n = Console.ReadLine();
-            int numb = int.Parse(n);
+            string n1 = Console.ReadLine();
 
-            //Printing that number
-            Console.WriteLine(numb);
+            //Converge
+            int numb1 = int.Parse(n1);
+
+            //Ask for second floating Number
+            Console.WriteLine("Please insert a second float Number:");
+            string n2 = Console.ReadLine();
+
+            //Converge
+            float numb2 = float.Parse(n2);
+
         }
     }
 }
