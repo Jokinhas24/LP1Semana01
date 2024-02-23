@@ -37,6 +37,16 @@ namespace VariousTypes
             Console.WriteLine(f);
             Console.WriteLine(dd);
             Console.WriteLine(d);
+
+            //Boolean Variables
+            bool cd1 = false;
+            bool cd2 = 6 > 3;
+
+            //Prints Boolean Variables on the Console
+            Console.WriteLine(cd1);
+            Console.WriteLine(cd2);
+
+
         }
     }
 }
